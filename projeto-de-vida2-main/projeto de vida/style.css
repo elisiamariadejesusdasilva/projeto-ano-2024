@@ -7,6 +7,7 @@
 --botao-ativo: #3A375E;
 --botao-inativo: rgba(58, 55, 94, 0.5); 
 --texto: rgba(58, 55, 94, 0.3); 
+--texto-fundo: rgba(58, 55, 94, 0.3)
 }
 
 body{
@@ -62,8 +63,11 @@ font-family: 'Chakra Petch', sans-serif;
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
     }
-    
 
+.abas-textos{
+    background-color: var(--texto-fundo);
+}
+    
 @media screen and (min-width: 768px) {
     .botoes{
         display: flex;
